@@ -1,0 +1,39 @@
+---
+authors:
+  - brad-czerniak
+#categories: ["one", "two"]
+classes: "text-align--center"
+#date: 2020-03-03 02:02:02
+#published: true
+#tags: ["three", "four"]
+title: "What the heck is a so1ve?"
+title_classes: ""
+---
+
+<div class="layout--row display--flex">
+  <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
+    {% include atoms/image.html
+      src="1200x630/brad-czerniak.jpg"
+      alt="Brad Czerniak solves things once for you"
+      classes=""
+      link_url="/about/"
+    %}
+  </aside>
+  <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
+    padding-horizontal--4 padding-horizontal--collapse text-align--left">
+    <p>
+      <strong>Solve it once</strong> is <a href="https://bradczerniak.com/">Brad Czerniak</a>'s Michigan Drupal and JAMstack
+      agency. He does 95% of so1ve's work himself, but occasionally hires (U.S.) sub-contractors for things like graphic
+      design, WordPress, React JS, and other specialty tasks.
+    </p>
+
+    <p>
+      Brad is originally an economist and librarian by training, but has spent 15 years doing full-time PHP development,
+      with a special focus on Drupal. He doesn't bite, and you can count on him for a prompt, friendly reply.
+    </p>
+  </aside>
+</div>
+
+{% include atoms/spacer.html size="4" %}
+
+<a class="button cta" href="{{ site.subpath }}{% link collections/pages/about.html %}">Learn more about so1ve</a>

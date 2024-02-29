@@ -1,0 +1,31 @@
+---
+authors:
+  - brad-czerniak
+#categories: ["one", "two"]
+classes: "text-align--center"
+#date: 2020-03-03 02:02:02
+#published: true
+#tags: ["three", "four"]
+title: "The who's who"
+title_classes: "heading--h2"
+---
+
+<p class="font-size--p875em">
+  For now it's just Brad and subcontractors like <a href="https://www.jimkleiber.com/">Jim</a>, but keep an eye here as
+  we rapidly grow!
+</p>
+
+{% include atoms/spacer.html size="2" %}
+
+{% if site.people[0] %}
+  <ul class="list-style--none layout--multiple--horizontal">
+    {% assign people_sorted = site.people | sort: "weight" %}
+    {% for person in people_sorted %}
+      {% include molecules/card.html
+        entity=person
+      %}
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="listing--no-results">There are presently no people on this site.</p>
+{% endif %}

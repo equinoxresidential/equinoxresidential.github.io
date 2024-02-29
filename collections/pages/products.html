@@ -1,0 +1,77 @@
+---
+authors:
+  - brad-czerniak
+#categories: ["one", "two"]
+#date: 2020-03-03 02:02:02
+#hero_classes: "background-color--main-dark color--white"
+menus:
+#  copyright: 4
+#  footer: 2
+  main: 2
+#  utility: 1
+meta:
+  description: "Products and services for sale."
+  image:
+    alt: "Products page social share image" # It's okay for this to be empty if the image is decorative
+    src: 1200x630/share_products.png
+#  robots: "index,follow"
+#  title: "Overrides the tab title and social titles"
+permalink: /products/
+#published: true
+#schema:
+#  type: "Thing"
+sections:
+  - cta
+sitemap: false
+#tags: ["three", "four"]
+title: "Products"
+---
+
+<section class="layout--stripe ">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+      children="Introduction and product listing"
+      classes="a11y--visually-hidden"
+      level="2"
+    %}
+
+    <p>
+      You can buy almost anything online, without having to deal with high-pressure salespeople. At so1ve, we believe you
+      should be able to do the same with your Drupal website.
+    </p>
+
+    <p>
+      If you need a competitive bid or other proposal for a large project, we are usually happy to put together one for
+      you. Please <a href="mailto:brad@solveitonce.com">reach out via email</a> with details to get the process going.
+    </p>
+
+    {% include atoms/spacer.html size="4" %}
+
+    {% if site.products[0] %}
+      <ul class="list-style--none layout--multiple--horizontal">
+        {% for product in site.products %}
+          {% include molecules/card.html
+            entity=product
+          %}
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="listing--no-results">There are presently no products for sale.</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="layout--strip background-color--third-light color--third-dark text-align--center">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+      children="Second chance call to action"
+      classes="a11y--visually-hidden"
+      level="2"
+    %}
+
+    <p>
+      <strong>Looking for something else?</strong> Call/text Brad at <a href="tel:+13135097214">(313) 509-7214</a> or
+      email <a href="mailto:brad@solveitonce.com">brad@solveitonce.com</a>
+    </p>
+  </div>
+</section>

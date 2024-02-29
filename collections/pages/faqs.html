@@ -1,0 +1,61 @@
+---
+authors:
+  - brad-czerniak
+#categories: ["one", "two"]
+#date: 2020-03-03 02:02:02
+#hero_classes: "background-color--main-dark color--white"
+menus:
+#  copyright: 2
+  footer: 3
+#  main: 3
+#  utility: 2
+meta:
+  description: "What we've been asked, and what we say when asked."
+  image:
+    alt: "Frequently asked questions" # It's okay for this to be empty if the image is decorative
+    src: 1200x630/share_faqs.png
+#  robots: "index,follow"
+#  title: "Overrides the tab title and social titles"
+permalink: /faq/
+#published: true
+#schema:
+#  type: "Thing"
+#sections:
+#  - cta
+#sitemap: true
+#tags: ["three", "four"]
+title: "FAQs"
+---
+
+<section class="layout--stripe">
+  <div class="layout--stripe--inner">
+    {% include atoms/heading.html
+      children="All questions"
+      classes="text-align--center "
+      level="2"
+    %}
+
+    <p>Thank you for visiting the site. Below are answers to some support questions we've received, in case they may be
+      helpful to you as well.</p>
+
+    {% include atoms/spacer.html size="2" %}
+
+    {% include molecules/accordion.html
+      classes=""
+      children="<p>Regardless of who was best for Bella, we'd rather hang out with Jacob than Edward. Sparkly old dude is creepy.</p>"
+      title="Where does your organization stand politically?"
+    %}
+
+    {% include molecules/accordion.html
+      classes=""
+      children="<p>You bet! This whole website is literally open source: <a href='https://github.com/solve-it-once/solve-it-once.github.io'>solve-it-once/solve-it-once.github.io</a>, based on <a href='https://github.com/lowerbarriers/finished-starter'>lowerbarriers/finished-starter</a>.</p>"
+      title="Can I have a site just like yours?"
+    %}
+
+    {% include molecules/accordion.html
+      classes=""
+      children="<p>Something is better than nothing, and love is better than a random something.</p>"
+      title="Why?"
+    %}
+  </div>
+</section>

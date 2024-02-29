@@ -1,0 +1,45 @@
+---
+authors:
+  - brad-czerniak
+#categories: ["one", "two"]
+#date: 2020-03-03 02:02:02
+#hero_classes: "background-color--main-dark color--white"
+meta:
+  description: "Reusable and demonstration content at organism size."
+#  image:
+#    alt: "Default social image" # It's okay for this to be empty if the image is decorative
+#    src: required/meta-image--default.jpg
+  robots: "noindex,follow"
+#  title: "Overrides the tab title and social titles"
+#permalink: docs/path/page-title/
+#published: true
+#tags: ["three", "four"]
+title: "Sections (reusable)"
+---
+
+<p>@todo for some reason this page is running into rendering issues.</p>
+
+<p>
+  Section entities may be called by <code>organisms/section.html</code> using the mode="ref" prop. They can also be automatically
+  added to any content in the Page collection via the front-matter.
+</p>
+
+{% for section in site.sections %}
+  {% comment %}<!--
+    Sections typically only work on pages and HTML files (markdown supports less).
+    Here we call the sections as components directly, rather than using a render tag for the section _layout.
+    Since the markup is stored in three places, update the component, layout, and here each time.
+  -->{% endcomment %}
+  <section class="include include--organisms include--organisms--section layout--stripe
+    {% if section.classes %}{{ section.classes }}{% endif %}"
+    {% if section.title %}id="section--{{ section.title | slugify }}"{% endif %}>
+    <div class="layout--stripe--inner">
+      {% if section.title %}
+        <h2 class="{{ section.title_classes }}">{{ section.title }}</h2>
+      {% endif %}
+
+      {{ section.content }}
+    </div>
+  </section>
+  {% include atoms/spacer.html size="8" %}
+{% endfor %}
