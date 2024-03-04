@@ -20,7 +20,10 @@ meta:
 #permalink: /index.html
 #published: true
 redirect_from:
+  - /diy-consultation
   - /home
+  - /remodeling
+  - /renovation-rescue
 #schema:
 #  type: "Thing"
 sections:
@@ -69,7 +72,7 @@ title: "Home"
 <section class="layout--stripe text-align--center">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children="Words that make you feel"
+      children="We can help right where you are"
       classes="color--main-dark"
       level="2"
     %}
@@ -80,17 +83,17 @@ title: "Home"
         {% include atoms/spacer.html size="1" %}
 
         {% include atoms/heading.html
-          children="Your old agency"
-          classes="heading--h4 color--second"
+          children="We can help"
+          classes="heading--h4 color--main"
           level="3"
         %}
 
-        <ol>
-          <li>At first do you get <em>email attachments</em>, not a website?</li>
-          <li>If you cancel 10% in, do you get a website at all?</li>
-          <li>Do you get old-fashioned page mockups instead of components?</li>
-          <li>Did the designer say your brand is 'shy' or other nonsense?</li>
-        </ol>
+        <ul>
+          <li>Kitchen renovation</li>
+          <li>Bathroom renovation</li>
+          <li>Remodels and additions</li>
+          <li>Paint, trim, tile, flooring</li>
+        </ul>
       </aside>
 
       <aside class="flex--1 display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8
@@ -98,30 +101,30 @@ title: "Home"
         {% include atoms/spacer.html size="1" %}
 
         {% include atoms/heading.html
-          children="Solve it once"
-          classes="heading--h4 color--main"
+          children="Right where you are"
+          classes="heading--h4 color--second"
           level="3"
         %}
 
-        <ol>
-          <li>Within days you can log in to your new website</li>
-          <li>You can commit to bite-size sprints, and walk away at any time with a working site</li>
-          <li>It's <strong>good</strong> to refine components instead of whole pages!</li>
-          <li>The writing is clear, direct, and for all audiences</li>
-        </ol>
+        <ul>
+          <li>Fort Collins</li>
+          <li>Loveland</li>
+          <li>Windsor</li>
+          <li>I-25 corridor in Colorado</li>
+        </ul>
       </aside>
     </div>
 
     {% include atoms/spacer.html size="4" %}
 
     <p>
-      <strong>How can we stay small and make big promises?</strong> We stick to <a href="/blog/so1ve-approach-agile-interface/">
-      agile principles</a> and <br /><a href="https://www.frostdrupal.com/">use past success as our starting point</a>.
+      We offer more services in more places, so <a href="{{ site.subpath }}{% link collections/pages/contact.html %}">contact us</a>
+      if you're looking for something else.
     </p>
 
     {% include atoms/spacer.html size="4" %}
 
-    <a class="button cta" href="{{ site.subpath }}{% link collections/pages/about.html %}">Words here</a>
+    <a class="button cta" href="{{ site.subpath }}{% link collections/pages/about.html %}">Get the details</a>
   </div>
 </section>
 
@@ -137,8 +140,10 @@ title: "Home"
 
     <div class="display--flex layout--row flex-direction--row-reverse justify-content--center">
       <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
-        {% include molecules/youtube.html
-          id="CkmY1kb6vq8"
+        {% include atoms/image.html
+          src="1200x630/eqres-framing.jpg"
+          alt="An addition, clearly re-doing the model"
+          classes=""
         %}
       </aside>
 
@@ -147,6 +152,17 @@ title: "Home"
         <p>
           Whether remodeling your home or rental property we listen to your wants
           and needs and tailor your project to fit your budget and timeline.
+        </p>
+        <p>
+          The kitchen is the heart of the home and it should be the most functional
+          space in your home. Equinox Residential can help you redesign and optimize
+          your home, from the kitchen, to the bathrooms, to that unfinished basement
+          that you don't like to go into.
+        </p>
+        <p>
+          Maybe you'd like to extend your home a bit and put on an addition or add
+          a deck to help take your living space outdoors. We're able to help design
+          and build those spaces out.
         </p>
       </aside>
     </div>
@@ -165,8 +181,10 @@ title: "Home"
 
     <div class="display--flex layout--row justify-content--center">
       <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
-        {% include molecules/youtube.html
-          id="CkmY1kb6vq8"
+        {% include atoms/image.html
+          src="1200x630/eqres-bathroom.jpg"
+          alt="A particularly nice bathroom renovation"
+          classes=""
         %}
       </aside>
 
@@ -179,6 +197,13 @@ title: "Home"
         <p>
           We will identify the mistakes, build the right team for you, and get your
           project back on track. It's time to start sleeping again.
+        </p>
+        <p>
+          Have you had work done that you're not confident in or know that it was
+          done incorrectly? Equinox Residential can step in and assess projects
+          that have gone awry and work with you to rescue your renovation. No matter
+           what stage the project is in, we can provide guidance or take over and
+           ensure that it gets completed in a safe, timely, and cost effective manner.
         </p>
       </aside>
     </div>
@@ -197,17 +222,23 @@ title: "Home"
 
     <div class="display--flex layout--row flex-direction--row-reverse justify-content--center">
       <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
-        {% include molecules/youtube.html
-          id="CkmY1kb6vq8"
+        {% include atoms/image.html
+          src="1200x630/eqres-prep-paint.jpg"
+          alt="Prep and paint a room"
+          classes=""
         %}
       </aside>
 
       <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
         padding-horizontal--8 padding-horizontal--collapse text-align--left">
         <p>
-          We can help you build your scope of work, identify necessary permitting
-          and create your schedule. By setting realistic expectations and avoiding
-          possible pitfalls along the way you'll be set up for DIY success.
+          Thinking you can tackle that bathroom renovation yourself but don't know
+          where to start? Or did you bite off more than you can chew?
+        </p>
+        <p>
+          Equinox Residential can help guide you along your DIY adventure, helping
+          you set realistic expectations and a budget and making sure you're accounting
+          for all the little details.
         </p>
       </aside>
     </div>
