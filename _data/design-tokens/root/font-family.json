@@ -22,7 +22,7 @@
       "category": "Typography",
       "description": "Font for headings and other visual emphasis",
       "type": "font-family",
-      "value": "'Emberly', Georgia, Times New Roman, serif"
+      "value": "'Roboto', Verdana, sans-serif"
     }
   }
 }

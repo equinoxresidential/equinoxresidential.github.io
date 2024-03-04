@@ -15,7 +15,7 @@ layout: none
   <Tags>{{ site.tagline }}</Tags>
   <Attribution>Search from {{ site.shortname }} {{ site.url }}</Attribution>
   <SyndicationRight>open</SyndicationRight>
-  <Query role="example" searchTerms="Restaurant"/>
+  <Query role="example" searchTerms="Remodel"/>
   <Image height="16" width="16" type="image/vnd.microsoft.icon">{{ site.url }}{{ site.subpath}}/favicon.ico</Image>
   <Image height="64" width="64" type="image/png">{{ site.url }}{{ site.subpath}}/apple-touch-icon.png</Image>
   <Url type="text/html" template="{{ site.url }}{{ site.subpath}}/search/?q={searchTerms}"/>

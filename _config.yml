@@ -33,56 +33,46 @@ filament_load_css: "false" # Use the https://www.filamentgroup.com/lab/load-css-
 #content_security_policy: "default-src 'self'; script-src 'self' 'unsafe-inline'"
 
 ## Basic site info
-title: "Solve it once"
-primary_author: "Solve it once, LLC" # This is shown in the copyright statement in the footer of the site.
-shortname: so1ve
-tagline: "Low-overhead web business problem-solving"
+title: "Equinox Residential"
+primary_author: "Equinox Residential LLC" # This is shown in the copyright statement in the footer of the site.
+shortname: eqres
+tagline: "Rest easy at home"
 
 ## Site and contact bits
-email: brad@solveitonce.com
+email: alex@equinoxresidential.com
 #fax:
 #  display: "(248) 555-0123" # Fax number as displayed
 #  mailto: "12485550213" # Fex number with country code for the link
 locations:
-  - name: "Solve it once"
-    street_address: "1428 Mark Ave"
-    locality: Lincoln Park
-    region: MI
-    postal_code: "48146"
+  - name: "Equinox Residential"
+    street_address: "1512 Welch St"
+    locality: Fort Collins
+    region: CO
+    postal_code: "80524"
     country_name: USA
 phone:
-  display: "(313) 509-7214" # Phone number as displayed
-  mailto: "13135097214" # Phone number with country code for the link
+  display: "(970) 818-2785" # Phone number as displayed
+  mailto: "19708182785" # Phone number with country code for the link
 
 ## Social links
 ## Find icons in _includes/icons/[library]/[symbol].svg
 ## The _includes/icons/simple-icons library has all the social ones.
 social:
   - title: Facebook
-    url: https://www.facebook.com/solveitonce
+    url: https://www.facebook.com/equinoxresidential
     icon:
       library: simple-icons
       symbol: facebook
   - title: LinkedIn
-    url: https://www.linkedin.com/company/solve-it-once/
+    url: https://www.linkedin.com/in/inmanalex/
     icon:
       library: simple-icons
       symbol: linkedin
-  - title: GitHub
-    url: https://github.com/solve-it-once
+  - title: Instagram
+    url: https://www.instagram.com/equinoxresidential
     icon:
       library: simple-icons
-      symbol: github
-  - title: YouTube
-    url: https://www.youtube.com/@solveitonce
-    icon:
-      library: simple-icons
-      symbol: youtube
-  - title: Drupal.org
-    url: https://www.drupal.org/solve-it-once
-    icon:
-      library: simple-icons
-      symbol: drupal
+      symbol: instagram
 
 ## Press contact
 ## For small sites this is the same person and contact information as above. For companies... probably not.
@@ -102,10 +92,10 @@ html:
 
 ## Standard <meta> tags for SEO, etc.
 meta:
-  description: "Solve it once, LLC makes better websites faster and for less money."
+  description: "Equinox Residential is here to make sure you can rest easy in a home that is comfortable and beautiful. We are a full-service remodeling company based in Fort Collins, Colorado that can tackle projects of any size and complexity."
   generator: "[Jekyll](https://github.com/mojombo/jekyll)"
   image:
-    alt: "What Solve it once looks like" # It's okay for this to be an empty string if the image is decorative
+    alt: "What Equinox Residential looks like" # It's okay for this to be an empty string if the image is decorative
     src: required/meta-image--default.jpg
   robots: "index,follow"
 # title: "Do not use" # site.meta.title is not used for anything, but is included for completeness.
@@ -127,8 +117,6 @@ schema:
 ## @see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started
 twitter:
   card: "summary_large_image"
-  creator: "@SolveItOnceLLC"
-  site: "@SolveItOnceLLC"
 
 ## Web monetization
 ## Comment out this section to remove the <meta> tag.
@@ -140,7 +128,7 @@ twitter:
 ## @see https://developer.mozilla.org/en-US/docs/Web/Manifest
 manifest_webmanifest:
   background_color: "#fff"
-  theme_color: "#0081a7"
+  theme_color: "#00274c"
 
 ## JAMstack form handler globals
 ## @see https://css-tricks.com/a-comparison-of-static-form-providers/
@@ -154,8 +142,8 @@ form_components:
 ## JAMstack product handling, courtesy of snipcart
 ## Comment out the below section if you don't have products, to prevent a small script from running on every page load.
 ## @see https://snipcart.com/
-snipcart:
-  api_key: "ZGU1NjNhMmItZWNjMS00ODhlLTk4NDYtZDViOTcwY2QzMmUwNjM3MzM4MzYwOTgxMzUyMjA5"
+#snipcart:
+#  api_key: "ZGU1NjNhMmItZWNjMS00ODhlLTk4NDYtZDViOTcwY2QzMmUwNjM3MzM4MzYwOTgxMzUyMjA5"
 
 ## Woff2 files declared as webfonts in your css, relative to /assets/fonts/
 ## Placing them here sets them to be preloaded in the head, which reduces request chaining for better performance.
@@ -163,15 +151,13 @@ snipcart:
 preload:
   image:
     - "in-css/hero-home.jpg.webp"
-    - "in-css/eric-prouzet-tD49mqo7sjE-unsplash.jpg.webp"
     - "required/s.gif.webp"
   style:
     - "pre-commit-dependency.css"
   woff:
     - "public_sans/public_sans_variable.woff2"
-    - "emberly/emberly-variable.woff2"
+    - "roboto/roboto_variable.woff2"
     - "public_sans/public_sans_variable_italic.woff2"
-    - "emberly/emberly-variable-italic.woff2"
 
 ## The 'THANKS' and 'SITE' sections of humans.txt
 ## @see http://humanstxt.org/

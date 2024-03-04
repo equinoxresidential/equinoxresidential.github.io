@@ -1,6 +1,6 @@
 ---
 authors:
-  - brad-czerniak
+  - alex-inman
 #categories: ["one", "two"]
 #date: 2020-03-03 02:02:02
 front: true
@@ -11,12 +11,12 @@ menus:
   main: 1
 #  utility: 1
 meta:
-  description: "Michigan Drupal and JAMstack development + consultation."
+  description: "Equinox Residential is here to make sure you can rest easy in a home that is comfortable and beautiful. We are a full-service remodeling company based in Fort Collins, Colorado that can tackle projects of any size and complexity."
 #  image:
 #    alt: "Default social image"
 #    src: required/meta-image--default.jpg
 #  robots: "index,follow"
-  title: "Drupal web development in Michigan"
+  title: "Full-service remodeling in Fort Collins, Colorado"
 #permalink: /index.html
 #published: true
 redirect_from:
@@ -24,19 +24,17 @@ redirect_from:
 #schema:
 #  type: "Thing"
 sections:
-  - freshness
   - cta
-  - mailchimp
 #sitemap: true
 #tags: ["three", "four"]
 title: "Home"
 ---
 
-<section class="layout--stripe background-color--third-light background-image--hero-home background-size--cover
-  color--third-dark text-align--center background-image-display-mobile--hide" id="home">
+<section class="layout--stripe background-color--main-light background-image--hero-home background-size--cover
+  color--main-dark text-align--center background-image-display-mobile--hide" id="home">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children="Better, faster, cheaper Drupal websites"
+      children="Remodeling Fort Collins"
       classes=""
       level="1"
     %}
@@ -46,14 +44,14 @@ title: "Home"
     <div class="display--flex layout--row justify-content--center">
       <aside class="display--flex flex-direction--column justify-content--center">
         <p class="font-size--2em">
-          Let's not sugar-coat it: other agencies charge too much.
+          Renovating Northern Colorado one home at a time.
         </p>
       </aside>
     </div>
   </div>
 </section>
 
-<section class="layout--strip background-color--third-light color--third-dark text-align--center">
+<section class="layout--strip background-color--main-light color--main-dark text-align--center">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
       children="Early call to action"
@@ -62,8 +60,8 @@ title: "Home"
     %}
 
     <p>
-      <strong>Want to skip the hard sell?</strong> Call/text Brad at <a href="tel:+13135097214">(313) 509-7214</a> or email
-      <a href="mailto:brad@solveitonce.com">brad@solveitonce.com</a>
+      <strong>Let's fast-track this</strong> Call/text Alex at <a href="tel:+19708182785">(970) 818-2785</a> or email
+      <a href="mailto:alex@equinoxresidential.com">alex@equinoxresidential.com</a>
     </p>
   </div>
 </section>
@@ -71,7 +69,7 @@ title: "Home"
 <section class="layout--stripe text-align--center">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children="Always delivering working software"
+      children="Words that make you feel"
       classes="color--main-dark"
       level="2"
     %}
@@ -101,7 +99,7 @@ title: "Home"
 
         {% include atoms/heading.html
           children="Solve it once"
-          classes="heading--h4 color--third"
+          classes="heading--h4 color--main"
           level="3"
         %}
 
@@ -123,14 +121,14 @@ title: "Home"
 
     {% include atoms/spacer.html size="4" %}
 
-    <a class="button cta" href="{{ site.subpath }}{% link collections/pages/products.html %}">Shop now</a>
+    <a class="button cta" href="{{ site.subpath }}{% link collections/pages/about.html %}">Words here</a>
   </div>
 </section>
 
 <section class="layout--stripe text-align--center background-color--grey-light">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children="frost Drupal: super-charged head-start"
+      children="Remodels and additions"
       classes="color--main-dark"
       level="2"
     %}
@@ -147,18 +145,9 @@ title: "Home"
       <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
         padding-horizontal--8 padding-horizontal--collapse text-align--left">
         <p>
-          <a href="https://drupal.org">Drupal</a> is the best content management system. It's free, open source, and can
-          be expanded to do darn-near anything.
+          Whether remodeling your home or rental property we listen to your wants
+          and needs and tailor your project to fit your budget and timeline.
         </p>
-        <p>so1ve's flavor of Drupal, <a href="https://www.frostdrupal.com">frost</a>, is "low-code" and component-based,
-          so you can accomplish more without calling a developer. It's a big part of <strong>how we offer new sites quickly
-          for a fraction the cost of other companies</strong>:
-        </p>
-        <ul>
-          <li>It installs with 20+ pages of useful content</li>
-          <li>Reusable components and layouts are ready for your colors and fonts to make them yours</li>
-          <li>The code and configuration is dialed in</li>
-        </ul>
       </aside>
     </div>
   </div>
@@ -167,108 +156,116 @@ title: "Home"
 <section class="layout--stripe text-align--center">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children="We work on big sites"
-      classes="color--main"
+      children="Renovation rescue"
+      classes="color--main-dark"
       level="2"
     %}
 
-    <p class="font-size--p875em color--grey-dark">
-      so1ve coded for all these clients. They're not all our <em>contracts</em>, but we're proud of our work.
-    </p>
+    {% include atoms/spacer.html size="4" %}
 
     <div class="display--flex layout--row justify-content--center">
-      <aside class="flex--1 display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8-
-          padding-horizontal--collapse">
-        {% include atoms/spacer.html size="2" %}
-
-        {% include atoms/heading.html
-          children="Direct clients"
-          classes="heading--h4 font-family--secondary text-align--center color--third"
-          level="3"
-        %}
-
-        {% include molecules/data-listing.html
-          data="brands"
-          classes="display--flex flex-direction--row align-items--center justify-content--center"
-          item_classes="flex--1 padding-horizontal--4"
-          subcontract="false"
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
+        {% include molecules/youtube.html
+          id="CkmY1kb6vq8"
         %}
       </aside>
 
-      <aside class="flex--1 display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8
-          padding-horizontal--collapse">
-        {% include atoms/spacer.html size="2" %}
-
-        {% include atoms/heading.html
-          children="Subcontract work"
-          classes="heading--h4 font-family--secondary text-align--center color--third"
-          level="3"
-        %}
-
-        {% include molecules/data-listing.html
-          data="brands"
-          classes="display--flex flex-direction--row align-items--center justify-content--center"
-          item_classes="flex--1 padding-horizontal--4"
-          subcontract="true"
-        %}
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
+        padding-horizontal--8 padding-horizontal--collapse text-align--left">
+        <p>
+          Did you select the wrong contractor? Are you in over your head on a
+          do-it-yourself project?
+        </p>
+        <p>
+          We will identify the mistakes, build the right team for you, and get your
+          project back on track. It's time to start sleeping again.
+        </p>
       </aside>
     </div>
-
-    {% include atoms/spacer.html size="2" %}
-
-    <p class="font-size--p875em color--grey-dark">
-      Special thanks to <a href="https://creative.umich.edu/">Michigan Creative</a>,
-      <a href="https://www.human-element.com/">Human Element</a>, <a href="https://provisiosolutions.com/">Provisio</a>,
-      <a href="https://www.tactis.com/">Tactis</a>, <a href="https://casualastronaut.com/">Casual Astronaut</a>, and
-      <a href="https://symmetrimarketing.com/">Symmetri Marketing</a> for the
-      wonderful sub-contracting opportunities — please consider them if so1ve isn't your speed.
-    </p>
   </div>
 </section>
 
-<section class="layout--stripe text-align--center background-color--second-light background-image--noh8 background-size--cover">
-  <div class="layout--stripe--inner padding-horizontal--4 padding-vertical--4 background-color--second-light--transparent
-    box-shadow--default">
-    {% include atoms/heading.html
-      children="Hate need not apply"
-      classes="color--second-dark"
-      level="2"
-    %}
-
-    {% include atoms/icon.html
-      library="octicons"
-      symbol="megaphone"
-    %}
-
-    <p>
-      We refuse service for fringe political or religious ideology, guns and violence, gambling, drugs, or other crummy
-      junk, so anyone looking in to who made your website won't find your site alongside seedy scam sites. Let's all be
-      excellent to each other.
-    </p>
-
-    {% include atoms/icon.html
-      library="octicons"
-      symbol="heart"
-    %}
-  </div>
-</section>
-
-<section class="layout--stripe text-align--center background-color--third-light">
+<section class="layout--stripe text-align--center background-color--grey-light">
   <div class="layout--stripe--inner">
     {% include atoms/heading.html
-      children="Howdy, partner"
-      classes="color--third"
+      children="<abbr title='Do it yourself'>DIY</abbr> consultation"
+      classes="color--main-dark"
       level="2"
     %}
 
-    <p class="font-size--p875em color--grey-dark">
-      We'd love to partner with you as well, especially if your badge looks cool.
-    </p>
+    {% include atoms/spacer.html size="4" %}
 
-    {% include molecules/data-listing.html
-      data="badges"
-      classes="display--flex flex-direction--row align-items--center justify-content--center"
-      item_classes="flex--1 padding-horizontal--4"
+    <div class="display--flex layout--row flex-direction--row-reverse justify-content--center">
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center">
+        {% include molecules/youtube.html
+          id="CkmY1kb6vq8"
+        %}
+      </aside>
+
+      <aside class="layout--column flex--1 display--flex flex-direction--column justify-content--center
+        padding-horizontal--8 padding-horizontal--collapse text-align--left">
+        <p>
+          We can help you build your scope of work, identify necessary permitting
+          and create your schedule. By setting realistic expectations and avoiding
+          possible pitfalls along the way you'll be set up for DIY success.
+        </p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="layout--stripe background-color--main background-image--blueprint
+  background-size--cover color--white"
+>
+  <div class="layout--stripe--inner padding-horizontal--4 padding-vertical--4
+    background-color--main-dark--transparent box-shadow--default"
+  >
+    {% include atoms/heading.html
+      children="From our customers"
+      classes="text-align--center"
+      level="2"
     %}
+
+    {% include atoms/heading.html
+      children="Becky and Bryan say we're <em>life-savers</em>"
+      classes=""
+      level="3"
+    %}
+
+    <blockquote class="blockquote--opening-include">
+      <p>
+        Thank you for rescuing us from a devastating situation. You did a fabulous
+        job and we appreciate your hard work and compassion.
+      </p>
+    </blockquote>
+
+    {% include atoms/heading.html
+      children="Jennifer and Jay like our <em>professionalism</em>"
+      classes=""
+      level="3"
+    %}
+
+    <blockquote class="blockquote--opening-include">
+      <p>
+        Alex was available via text, email or phone, usually starting at 6 am. He
+        made good suggestions along the way and he never, never gave me the impression
+        that one of my concerns was petty-- and some of them seemed petty to me
+        at the time, but his professionalism was superb.
+      </p>
+    </blockquote>
+
+    {% include atoms/heading.html
+      children="Chris appreciates that we're <em>organized</em>"
+      classes=""
+      level="3"
+    %}
+
+    <blockquote class="blockquote--opening-include">
+      <p>
+        He was excellent at coordinating the myriad aspects of the project and at
+        keeping everything on track. He possesses a good balance of creativity and
+        practicality. He always brings a cheerful and positive attitude to every day.
+      </p>
+    </blockquote>
   </div>
 </section>

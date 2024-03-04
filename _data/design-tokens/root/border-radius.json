@@ -4,7 +4,7 @@
       "category": "Mood",
       "description": "The roundedness of corners on items that have rounded corners",
       "type": "border-radius",
-      "value": "2px"
+      "value": "1px"
     }
   }
 }

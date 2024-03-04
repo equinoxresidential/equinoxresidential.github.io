@@ -1,6 +1,6 @@
 {% capture component %}
   <footer itemprop="publisher" itemscope itemtype="http://schema.org/{{ site.schema.publisher.type }}"
-    class="footer layout--strip background-color--third color--white {% if include.classes %}{{ include.classes }}{% endif %}">
+    class="footer layout--strip background-color--main color--white {% if include.classes %}{{ include.classes }}{% endif %}">
     <div class="layout--stripe--inner">
       {% for location in site.locations limit: 1 %}
         <h2 class="a11y--visually-hidden" itemprop="name">{{ location.name }}</h2>
@@ -73,7 +73,7 @@ Just some sample text in the accessibility section for now.
 classes| css classes applied to parent| color--main-dark
 {% endcapture %}
 
-{% assign classes = "background-color--third-light, font-size--2em" | split: ", " %}
+{% assign classes = "background-color--main-light, font-size--2em" | split: ", " %}
 
 {% if include.mode == "docblock" %}
   {% include molecules/docblock.html

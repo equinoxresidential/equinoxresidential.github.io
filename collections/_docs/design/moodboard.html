@@ -1,6 +1,6 @@
 ---
 authors:
-  - brad-czerniak
+  - alex-inman
 #categories: ["one", "two"]
 #date: 2020-03-03 02:02:02
 #hero_classes: "background-color--main-dark color--white"
@@ -151,7 +151,7 @@ title: "Moodboard"
     </div>
   </li>
   <li class="flex--1">
-    <div class="palette background-color--third color--white font-family--monospace text-align--center display--flex
+    <div class="palette background-color--main color--white font-family--monospace text-align--center display--flex
           flex-direction--column justify-content--center">
       {{ site.data.design-tokens.root.color.color.third.value }}
     </div>
@@ -181,7 +181,7 @@ title: "Moodboard"
     </div>
   </li>
   <li class="flex--1">
-    <div class="palette background-color--third-light font-family--monospace text-align--center display--flex
+    <div class="palette background-color--main-light font-family--monospace text-align--center display--flex
           flex-direction--column justify-content--center">
       {{ site.data.design-tokens.root.color.color.third-light.value }}
     </div>
@@ -214,7 +214,7 @@ level="3"
     <tr>
       <td>
         {% include atoms/image.html
-          src="required/logo.svg"
+          src="required/logo.png"
           alt="Logo"
         %}
       </td>
@@ -229,16 +229,6 @@ level="3"
         %}
       </td>
       <td>The app icon when you install this site as a bookmark on a mobile device.</td>
-    </tr>
-
-    <tr>
-      <td>
-        {% include atoms/image.html
-          src="required/favicon.svg"
-          alt="Favicon"
-        %}
-      </td>
-      <td>The simplified mark used as an icon in browser tabs and bookmarks.</td>
     </tr>
 
     <tr>
