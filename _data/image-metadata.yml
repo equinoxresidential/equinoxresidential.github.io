@@ -116,15 +116,12 @@ images:
   - path: 'required/demo.jpg.webp'
     height: 630
     width: 1200
-  - path: 'required/demo_bw.jpg.webp'
-    height: 630
-    width: 1200
   - path: 'required/logo-mark_512.png.webp'
     height: 512
     width: 512
   - path: 'required/demo_bw.jpg'
-    height: 630
-    width: 1200
+    height: 
+    width: 
   - path: 'required/tile.png.webp'
     height: 558
     width: 558
