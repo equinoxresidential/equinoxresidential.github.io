@@ -580,10 +580,10 @@
 .menu--main .menu-item > a:active,
 .menu--main .menu-item > a:focus,
 .menu--main .menu-item > a.active:not([href="/"]) {
-  background-color: var(--color--second);
+  background-color: var(--color--main);
   border-radius: var(--border-radius--default);
   box-shadow: var(--box-shadow--default);
-  color: var(--color--main);
+  color: var(--color--white);
   font-weight: bold;
 }
 .menu--main.border-spaced > li {

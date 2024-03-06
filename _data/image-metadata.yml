@@ -1,11 +1,29 @@
 images:
+  - path: '1200x630/Untitled-9.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-6.jpg'
+    height: 630
+    width: 1200
   - path: '1200x630/eqres-shower-tile-2.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-2.jpg'
     height: 630
     width: 1200
   - path: '1200x630/eqres-flooring.jpg.webp'
     height: 630
     width: 1200
   - path: '1200x630/eqres-shower-tile-3.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-6.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-1.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-3.jpg'
     height: 630
     width: 1200
   - path: '1200x630/balcony-deck.jpg.webp'
@@ -15,6 +33,9 @@ images:
     height: 630
     width: 1200
   - path: '1200x630/eqres-patio-pergola.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-12.jpg'
     height: 630
     width: 1200
   - path: '1200x630/eqres-kitchen-reno-1.jpg.webp'
@@ -32,7 +53,13 @@ images:
   - path: '1200x630/eqres-patio-pergola.jpg.webp'
     height: 630
     width: 1200
+  - path: '1200x630/Untitled-7.jpg'
+    height: 630
+    width: 1200
   - path: '1200x630/eqres-shower-tile-2.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-3.jpg.webp'
     height: 630
     width: 1200
   - path: '1200x630/balcony-deck.jpg'
@@ -56,10 +83,19 @@ images:
   - path: '1200x630/john-locke.jpg'
     height: 630
     width: 1200
+  - path: '1200x630/Untitled-11.jpg'
+    height: 630
+    width: 1200
   - path: '1200x630/eqres-truck-loading.jpg.webp'
     height: 630
     width: 1200
   - path: '1200x630/alex-inman.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-4.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-9.jpg'
     height: 630
     width: 1200
   - path: '1200x630/blueprint.jpg'
@@ -68,13 +104,28 @@ images:
   - path: '1200x630/eqres-prep-paint.jpg'
     height: 630
     width: 1200
+  - path: '1200x630/Untitled-5.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-12.jpg.webp'
+    height: 630
+    width: 1200
   - path: '1200x630/john-locke.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-11.jpg.webp'
     height: 630
     width: 1200
   - path: '1200x630/eqres-bathroom.jpg'
     height: 630
     width: 1200
+  - path: '1200x630/Untitled-8.jpg'
+    height: 630
+    width: 1200
   - path: '1200x630/eqres-framing.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-1.jpg'
     height: 630
     width: 1200
   - path: '1200x630/eqres-shower-tile-1.jpg.webp'
@@ -83,13 +134,34 @@ images:
   - path: '1200x630/eqres-framing.jpg'
     height: 630
     width: 1200
+  - path: '1200x630/Untitled-5.jpg.webp'
+    height: 630
+    width: 1200
   - path: '1200x630/cytonn-photography-n95VMLxqM2I-unsplash.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-7.jpg.webp'
     height: 630
     width: 1200
   - path: '1200x630/eqres-truck-loading.jpg'
     height: 630
     width: 1200
+  - path: '1200x630/Untitled-10.jpg'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-10.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-8.jpg.webp'
+    height: 630
+    width: 1200
   - path: '1200x630/alex-inman.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-2.jpg.webp'
+    height: 630
+    width: 1200
+  - path: '1200x630/Untitled-4.jpg.webp'
     height: 630
     width: 1200
   - path: '1200x630/eqres-alex-demo.jpg.webp'

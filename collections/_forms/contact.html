@@ -36,12 +36,39 @@ title_classes: "a11y--visually-hidden"
     type="email"
   %}
 
+  {% include forms/form--input.html
+    classes=""
+    description=false
+    label="Phone number"
+    name="phone"
+    required=true
+    type="text"
+  %}
+
+  {% include forms/form--input.html
+    classes=""
+    description=false
+    label="Street address"
+    name="address"
+    required=true
+    type="text"
+  %}
+
   {% include forms/form--textarea.html
     classes=""
-    description="Questions, comments, anything."
-    label="Message"
+    description=false
+    label="Tell us about your project"
     name="message"
     required=true
     rows="4"
+  %}
+
+  {% include forms/form--input.html
+    classes=""
+    description=false
+    label="When would you like to start your project?"
+    name="start_date"
+    required=true
+    type="date"
   %}
 </fieldset>

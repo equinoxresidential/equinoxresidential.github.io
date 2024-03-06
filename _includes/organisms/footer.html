@@ -12,10 +12,8 @@
           {% for location in site.locations %}
             <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
               <strong>{{ location.name }}</strong><br>
-              <span itemprop="streetAddress">{{ location.street_address }}</span><br>
               <span itemprop="addressLocality">{{ location.locality }}</span>,
               <span itemprop="addressRegion">{{ location.region }}</span>
-              <span itemprop="postalCode">{{ location.postal_code }}</span>
             </address>
           {% endfor %}
 
