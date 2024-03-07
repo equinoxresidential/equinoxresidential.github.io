@@ -72,27 +72,15 @@ title: "Home"
 
 <section class="layout--stripe text-align--center">
   <div class="layout--stripe--inner">
-    {% include atoms/heading.html
-      children="We can help right where you are"
-      classes="color--main-dark"
-      level="2"
-    %}
-
     <div class="display--flex layout--row justify-content--center">
       <aside class="flex--1 display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8-
         padding-horizontal--collapse">
         {% include atoms/spacer.html size="1" %}
 
         {% include atoms/heading.html
-          children="We can help"
-          classes="color--main"
-          level="3"
-        %}
-
-        {% include atoms/heading.html
           children="General contracting services"
-          classes="color--main-dark"
-          level="4"
+          classes="heading--h4 color--main"
+          level="2"
         %}
 
         <ul>
@@ -101,11 +89,16 @@ title: "Home"
           <li>Outdoor living spaces</li>
           <li>Additions</li>
         </ul>
+      </aside>
+
+      <aside class="flex--1 display--flex flex-direction--column justify-content--flex-start text-align--left padding-horizontal--8-
+        padding-horizontal--collapse">
+        {% include atoms/spacer.html size="1" %}
 
         {% include atoms/heading.html
           children="Consultation services"
-          classes="color--main-dark"
-          level="4"
+          classes="heading--h4 color--main-dark"
+          level="2"
         %}
 
         <ul>
@@ -120,12 +113,10 @@ title: "Home"
         {% include atoms/spacer.html size="1" %}
 
         {% include atoms/heading.html
-          children="Right where you are"
-          classes="color--second"
-          level="3"
+          children="Service area"
+          classes="heading--h4 color--second"
+          level="2"
         %}
-
-        {% include atoms/spacer.html size="4" %}
 
         <ul>
           <li>Fort Collins</li>
@@ -140,8 +131,8 @@ title: "Home"
     {% include atoms/spacer.html size="4" %}
 
     <p>
-      We offer more services in more places, so <a href="{{ site.subpath }}{% link collections/pages/contact.html %}">contact us</a>
-      if you're looking for something else.
+      We're an experienced full-service remodeler that can get your ambitious project
+      across the finish line.
     </p>
 
     {% include atoms/spacer.html size="4" %}
