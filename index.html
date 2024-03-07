@@ -36,7 +36,7 @@ title: "Home"
 
 <section class="layout--stripe background-color--main-light background-image--hero-home background-size--cover
   color--main-dark text-align--center background-image-display-mobile--hide" id="home">
-  <div class="layout--stripe--inner">
+  <div class="layout--stripe--inner background-color--main-light--transparent padding-vertical--4">
     {% include atoms/heading.html
       children="Remodeling Fort Collins"
       classes=""
@@ -85,15 +85,33 @@ title: "Home"
 
         {% include atoms/heading.html
           children="We can help"
-          classes="heading--h4 color--main"
+          classes="color--main"
           level="3"
         %}
 
+        {% include atoms/heading.html
+          children="General contracting services"
+          classes="color--main-dark"
+          level="4"
+        %}
+
         <ul>
-          <li>Kitchen renovation</li>
-          <li>Bathroom renovation</li>
-          <li>Remodels and additions</li>
-          <li>Paint, trim, tile, flooring</li>
+          <li>Whole house remodels</li>
+          <li>Kitchen and bath renovations</li>
+          <li>Outdoor living spaces</li>
+          <li>Additions</li>
+        </ul>
+
+        {% include atoms/heading.html
+          children="Consultation services"
+          classes="color--main-dark"
+          level="4"
+        %}
+
+        <ul>
+          <li>Construction defect inspections and findings</li>
+          <li>Expert witness for defect cases</li>
+          <li>DIY guidance</li>
         </ul>
       </aside>
 
@@ -103,15 +121,18 @@ title: "Home"
 
         {% include atoms/heading.html
           children="Right where you are"
-          classes="heading--h4 color--second"
+          classes="color--second"
           level="3"
         %}
 
+        {% include atoms/spacer.html size="4" %}
+
         <ul>
           <li>Fort Collins</li>
-          <li>Loveland</li>
+          <li>Timnath</li>
           <li>Windsor</li>
-          <li>I-25 corridor in Colorado</li>
+          <li>Bellvue</li>
+          <li>Outside this area? Please Inquire</li>
         </ul>
       </aside>
     </div>

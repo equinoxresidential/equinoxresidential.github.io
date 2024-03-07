@@ -33,6 +33,9 @@
 .background-color--main-light {
   background-color: var(--color--main-light);
 }
+.background-color--main-light--transparent {
+  background-color: rgba(216, 225, 233, 0.625);
+}
 .background-color--second {
   background-color: var(--color--second);
 }
