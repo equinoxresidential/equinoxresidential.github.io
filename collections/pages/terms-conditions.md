@@ -74,37 +74,6 @@ You **must not**:
 3. Reproduce, duplicate or copy material from this site
 4. Redistribute content from this site (unless content is specifically made for redistribution)
 
-## User Comments
-
-This Agreement shall begin on the date hereof.
-
-Certain parts of this website offer the opportunity for users to post and exchange opinions, information,
-material and data ('Comments') in areas of the website. We do not screen, edit, publish
-or review Comments prior to their appearance on the website and Comments do not reflect the views or
-opinions of us or our agents or affiliates. Comments reflect the view and opinion of the
-person who posts such view or opinion. To the extent permitted by applicable laws we shall
-not be responsible or liable for the Comments or for any loss cost, liability, damages or expenses caused
-and or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this
-website.
-
-We reserve the right to monitor all Comments and to remove any Comments which we consider
-in our absolute discretion to be inappropriate, offensive or otherwise in breach of these Terms and Conditions.
-
-You warrant and represent that:
-
-1. You are entitled to post the Comments on our website and have all necessary licenses and consents to
-   do so;
-2. The Comments do not infringe any intellectual property right, including without limitation copyright, patent or
-   trademark, or other proprietary right of any third party;
-3. The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material
-   or material which is an invasion of privacy
-4. The Comments will not be used to solicit or promote business or custom or present commercial activities
-   or unlawful activity.
-
-You hereby grant to us a non-exclusive royalty-free license to use, reproduce,
-edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats
-or media.
-
 ## Iframes
 
 Without prior approval and express written permission, you may not create frames around our Web pages or
